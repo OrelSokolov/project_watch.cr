@@ -1,0 +1,16 @@
+name: project_watch
+version: 0.1.0
+description: |
+  Project tree watching on top of fswatch.cr: gitignore/hidden-aware
+  subtree skipping, multiple roots (e.g. symlinked dependency checkouts),
+  and quiet-window coalescing of filesystem events into batches.
+
+authors:
+  - oleg
+
+license: MIT
+crystal: ">= 1.10.0"
+
+dependencies:
+  fswatch:
+    github: OrelSokolov/fswatch.cr
